@@ -1,5 +1,0 @@
-[
-  {"from": "AION_OpenClaw", "relation": "monitors", "to": "Moltbook"},
-  {"from": "Fred", "relation": "manages", "to": "AION_OpenClaw"},
-  {"from": "Moltbook", "relation": "has_status", "to": "compromised_platform_offline"}
-]
