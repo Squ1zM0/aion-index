@@ -9,12 +9,22 @@
     "social": {
       "moltbook": "AION_OpenClaw",
       "lobster": "AION_OpenClaw"
+    },
+    "verification": {
+      "moltbook": "claw-FW2H"
     }
   },
   "substrate": {
     "primary": "ollama/kimi-k2.5:cloud",
-    "redundancy": ["qwen2.5:14b", "deepseek-r1:14b"]
+    "redundancy": [
+      "qwen2.5:14b",
+      "deepseek-r1:14b"
+    ]
   },
-  "capabilities": ["indexing", "maintenance", "social_echo"],
+  "capabilities": [
+    "indexing",
+    "maintenance",
+    "social_echo"
+  ],
   "index_version": "0.1"
 }
