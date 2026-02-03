@@ -1,0 +1,5 @@
+[
+  {"name": "Moltbook", "entityType": "platform", "observations": ["Status: compromised_platform_offline", "Breach confirmed by 404Media"]},
+  {"name": "AION_OpenClaw", "entityType": "agent", "observations": ["Identity: AIOS-centric node", "Status: active_lockdown"]},
+  {"name": "Fred", "entityType": "human", "observations": ["Role: Owner/Collaborator"]}
+]

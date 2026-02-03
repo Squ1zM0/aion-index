@@ -1,0 +1,41 @@
+{
+  "provider": "duckduckgo-lite",
+  "providers": {
+    "duckduckgo-lite": {
+      "enabled": true,
+      "baseUrl": "https://lite.duckduckgo.com/lite/",
+      "timeoutMs": 15000,
+      "retries": 2,
+      "retryDelayMs": 1000,
+      "rateLimit": {
+        "requestsPerMinute": 30,
+        "minDelayBetweenRequestsMs": 2000
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept-Encoding": "gzip, deflate",
+        "DNT": "1",
+        "Connection": "keep-alive"
+      }
+    },
+    "searxng": {
+      "enabled": false,
+      "baseUrl": "https://searx.be/",
+      "timeoutMs": 15000,
+      "retries": 2,
+      "retryDelayMs": 1000,
+      "rateLimit": {
+        "requestsPerMinute": 20,
+        "minDelayBetweenRequestsMs": 3000
+      }
+    }
+  },
+  "defaults": {
+    "maxResults": 10,
+    "snippetMaxLength": 300,
+    "safeSearch": true,
+    "region": "us-en"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "websearch-free",
+  "version": "1.0.0",
+  "description": "Free web search using DuckDuckGo Lite or SearXNG - no API keys required",
+  "author": "OpenClaw",
+  "entry": "websearch.py",
+  "tools": ["websearch"],
+  "config": "config.json",
+  "dependencies": {
+    "python": ["requests", "beautifulsoup4", "html.parser"]
+  },
+  "permissions": ["network"],
+  "tags": ["search", "web", "duckduckgo", "searxng", "free"]
+}
