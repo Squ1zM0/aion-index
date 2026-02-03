@@ -129,7 +129,7 @@
   },
   
   "notifications": {
-    "discord_webhook": "https://discord.com/api/webhooks/1468082420946567250/Qi9awCXDLHahHHpZRqp-jSP5NBD6i4ObLJqnRcH6KJN2al4vpoqskI9rwm5XH4SoPGvu"
+    "discord_webhook": "USE_ENVIRONMENT_VARIABLE_FOR_SECURITY"
   },
   
   "logging": {
