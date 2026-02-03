@@ -1,0 +1,10 @@
+# AION_INDEX: Strict Security Allow-List
+# Deny everything by default
+*
+
+# Allow only the public lighthouse manifest and protocol
+!node.json
+!index.html
+!README.md
+!AION_INDEX_PROPOSAL.md
+!.gitignore
